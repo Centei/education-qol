@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+html, body {
+    width: 400px;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    width: 100%;
+}
+
+input, label {
+    box-sizing: border-box;
+    padding: 0.4rem;
+}
+
+button {
+    width: 100%;
+    margin: 3% auto;
+}

@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "name": "education-qol+",
+    "version": "1.0",
+  
+    "description": "Qol features for the Schoology platform.",
+    "icons": {
+      "48": "icons/education.svg"
+    },
+
+    "browser_specific_settings": {
+      "gecko": {
+          "id": "education-qol@example.com"
+      }
+    },
+
+    "permissions": [
+      "activeTab",
+      "storage",
+      "*://api.schoology.com/*"
+    ],
+
+    "browser_action": {
+      "default_icon": "icons/education.png",
+      "default_title": "Education-QOL+",
+      "default_popup": "popup/enter_api_info.html"
+    },
+
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.schoology.com/home", "*://schoology.com/home/*"],
+        "js": ["qol.js"],
+        "css": ["table.css"]
+      }
+    ]
+}
