@@ -9,4 +9,4 @@ This is most likely the end for this extension as I will not be continuing furth
 
 ## License
 
-Education QOL is licensed under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt), a free and open source license. For more information, please see the [license file](https://github.com/Centei/education-qol/blob/master/LICENSE.md). Feel free to fork this extension and make your own changes.
+Education QOL is licensed under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.txt), a free and open source license. For more information, please see the [license file](https://github.com/Centei/education-qol/blob/master/LICENSE.md). Feel free to fork this repository and make your own changes.
